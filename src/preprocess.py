@@ -3,10 +3,12 @@ import re
 # Terms that must survive cleaning verbatim (case-insensitive match first,
 # stored lowercase so comparison works after text.lower()).
 IMPORTANT_TERMS: frozenset[str] = frozenset({
-    "c++", "c#", "node.js", "react.js",
+    "c++", "c#", "node.js", "react.js", ".net", "asp.net",
     "machine learning", "deep learning", "nlp",
     "sql", "python", "java", "aws",
-    "excel", "powerbi", "tableau",
+    "excel", "powerbi", "power bi", "tableau",
+    "active directory", "windows server", "project management",
+    "data analysis", "technical support", "troubleshooting"
 })
 
 STOPWORDS: frozenset[str] = frozenset({

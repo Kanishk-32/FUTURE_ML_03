@@ -26,7 +26,7 @@ from src.ranker import rank_candidates
 # ---------------------------------------------------------------------------
 RESUME_FOLDER = "data/INFORMATION-TECHNOLOGY"
 JOB_DESC_CSV = "data/job_descriptions.csv"
-RESUME_LIMIT = 5
+RESUME_LIMIT = 120
 JOB_TITLE_PATTERN = r"data|engineer|developer|machine learning|software"
 # ---------------------------------------------------------------------------
 

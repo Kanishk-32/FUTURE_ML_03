@@ -16,9 +16,10 @@ SKILLS_DB: frozenset[str] = frozenset({
     # Languages
     "python", "java", "javascript", "typescript",
     "c++", "c#", "r", "go", "scala", "kotlin", "swift", "rust",
+    "php", "perl", "ruby", ".net", "asp.net",
     # Web / backend frameworks
     "node.js", "react.js", "django", "flask", "fastapi", "spring",
-    "html", "css",
+    "html", "css", "angular", "vue", "hibernate",
     # ML / AI
     "machine learning", "deep learning", "nlp",
     "computer vision", "reinforcement learning",
@@ -27,13 +28,17 @@ SKILLS_DB: frozenset[str] = frozenset({
     "pandas", "numpy", "scipy", "matplotlib",
     # Data & BI
     "data analysis", "data science", "data engineering",
-    "sql", "mysql", "postgresql", "mongodb",
-    "excel", "tableau", "powerbi",
+    "sql", "mysql", "postgresql", "mongodb", "oracle", "hadoop",
+    "excel", "tableau", "powerbi", "power bi",
     # Cloud & DevOps
     "aws", "azure", "gcp",
-    "docker", "kubernetes", "terraform", "ci/cd",
-    # Tools
-    "git", "linux", "bash",
+    "docker", "kubernetes", "terraform", "ci/cd", "jenkins", "maven", "gradle",
+    # Methodologies & APIs
+    "agile", "scrum", "rest", "api", "json", "xml", "soap",
+    # Tools & Enterprise
+    "git", "linux", "bash", "sap", "jira", "sharepoint", "servicenow",
+    "selenium", "cisco", "vmware", "windows server", "active directory",
+    "networking", "troubleshooting", "technical support", "project management"
 })
 
 # Pre-compute sorted lists once at import time.
