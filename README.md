@@ -1,146 +1,173 @@
-# AI-Powered Resume Screening System
+<div align="center">
 
-An intelligent resume screening pipeline that ranks candidates against job descriptions using **TF-IDF cosine similarity** and **keyword-based skill matching**.
+# 🚀 AI-Powered Resume Screening System
 
-## Features
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- **PDF Resume Parsing** — Extracts text from PDF resumes using pdfplumber
-- **Skill Extraction** — Identifies 50+ technical skills from resumes and job descriptions
-- **Dual Scoring** — Combines TF-IDF text similarity (30%) with skill matching (70%)
-- **Interactive Web App** — Streamlit-based UI with charts, filters, and CSV export
-- **Visualization** — Bar charts, radar plots, and score distributions
-- **Flexible Input** — Load from dataset or paste custom job descriptions
+*An intelligent, fast, and accurate candidate ranking pipeline built with Machine Learning.*
 
-## Project Structure
+[**Features**](#-features) • [**Quick Start**](#-quick-start) • [**How It Works**](#-how-it-works) • [**Web App**](#-web-app) • [**Contributing**](#-contributing)
 
+</div>
+
+---
+
+## 🎯 What is this?
+Finding the right candidate in a pile of hundreds of resumes is like finding a needle in a haystack. This **AI-Powered Resume Screening System** automates the tedious triage process. 
+
+By combining **TF-IDF cosine similarity** with an intelligent **keyword-based skill extraction engine**, this system ranks candidates against your exact job description, saving HR professionals and recruiters countless hours.
+
+---
+
+## ✨ Features
+
+- **📄 Intelligent Parsing**: Flawlessly extracts text from PDF resumes using `pdfplumber`.
+- **🧠 Hybrid Scoring Engine**:
+  - **70% Skill Match**: Detects over 50+ exact technical keywords across disciplines.
+  - **30% Semantic Similarity**: Uses TF-IDF vectorization to measure the contextual fit between the resume and the job description.
+- **📊 Interactive Dashboard**: A sleek, intuitive web application powered by **Streamlit**.
+- **📈 Rich Visualizations**: View candidate radar charts, bar plots, and score distributions dynamically.
+- **⚡ Batch Processing**: Evaluate dozens of resumes in seconds via the Command Line Interface (CLI) or Web UI.
+- **💾 Export Ready**: Download screening results as CSV for ATS (Applicant Tracking System) integration.
+
+---
+
+## 🛠️ Architecture
+
+```mermaid
+graph TD;
+    A[PDF Resumes] --> C;
+    B[Job Description] --> C;
+    C[Text Preprocessing] --> D[TF-IDF Vectorizer];
+    C --> E[Skill Extractor];
+    D --> F[Cosine Similarity Score];
+    E --> G[Skill Match Score];
+    F --> H{Weighted Ranking System};
+    G --> H;
+    H --> I[Leaderboard / Dashboard];
 ```
-resume-screening-ml/
-├── main.py                  # CLI pipeline entry point
-├── requirements.txt         # Python dependencies
-├── app/
-│   └── app.py               # Streamlit web interface
-├── src/
-│   ├── data_loader.py       # PDF & CSV data loading
-│   ├── preprocess.py        # Text cleaning & normalization
-│   ├── skill_extractor.py   # Keyword-based skill detection
-│   ├── similarity.py        # TF-IDF cosine similarity
-│   └── ranker.py            # Scoring & ranking engine
-├── utils/
-│   └── visualization.py     # Chart generation (matplotlib)
-├── data/
-│   ├── INFORMATION-TECHNOLOGY/   # Resume PDFs (120 files)
-│   └── job_descriptions.csv      # 40 curated job postings
-├── scripts/
-│   └── generate_job_descriptions.py  # Dataset generator
-└── models/                  # Saved models (future use)
-```
 
-## Installation
+---
 
+## 🚀 Quick Start
+
+### 1. Prerequisites
+Ensure you have **Python 3.10+** installed on your system.
+
+### 2. Installation
+Clone the repository and install the dependencies:
 ```bash
-# 1. Clone the repository
-git clone <repo-url>
+# Clone the repository
+git clone https://github.com/your-username/resume-screening-ml.git
 cd resume-screening-ml
 
-# 2. Create a virtual environment (recommended)
+# Create and activate a virtual environment
 python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # macOS/Linux
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
 
-# 3. Install dependencies
+# Install required packages
 pip install -r requirements.txt
 ```
 
-## Usage
-
-### CLI Pipeline
-
-```bash
-python main.py
-```
-
-This will:
-1. Load 5 PDF resumes from `data/INFORMATION-TECHNOLOGY/`
-2. Load job descriptions from `data/job_descriptions.csv`
-3. Extract skills from both resumes and job description
-4. Rank candidates by combined score
-5. Print results to console
-
-### Web App (Streamlit)
-
+### 3. Usage: Web App (Recommended)
+Launch the interactive Streamlit dashboard:
 ```bash
 streamlit run app/app.py
 ```
+*The app will automatically open in your default browser at `http://localhost:8501`.*
 
-Features in the web app:
-- Select from 40 pre-loaded job descriptions or paste your own
-- Load resumes from folder or upload PDFs directly
-- Adjust skill vs. similarity weighting
-- View interactive charts and detailed candidate breakdowns
-- Export results to CSV
-
-## How It Works
-
-### Scoring Formula
-
+### 4. Usage: CLI Pipeline
+Run the command-line scoring engine:
+```bash
+python main.py
 ```
-final_score = (SKILL_WEIGHT × skill_match%) + (SIM_WEIGHT × similarity%)
+*Outputs a ranked list of top candidates directly to your terminal.*
+
+---
+
+## 📂 Project Structure
+
+```text
+resume-screening-ml/
+├── app/
+│   └── app.py               # Streamlit web interface
+├── data/
+│   ├── INFORMATION-TECHNOLOGY/   # Resume corpus (PDFs)
+│   └── job_descriptions.csv      # Job postings dataset
+├── models/                  # Stored ML models/vectorizers
+├── scripts/
+│   └── generate_job_descriptions.py # Dataset generation tool
+├── src/
+│   ├── data_loader.py       # PDF/CSV loaders
+│   ├── preprocess.py        # Text cleaning pipeline
+│   ├── skill_extractor.py   # Skill matching engine 
+│   ├── similarity.py        # TF-IDF logic
+│   └── ranker.py            # Final scoring formula
+├── utils/
+│   └── visualization.py     # Matplotlib/Seaborn graph generation
+├── main.py                  # CLI Entry point
+└── requirements.txt         # Dependencies
 ```
 
-Where:
-- **skill_match%** = |matched_skills| / |job_skills| × 100
-- **similarity%** = TF-IDF cosine_similarity(resume, job) × 100
-- Default weights: 70% skill match, 30% text similarity
+---
 
-### Pipeline Steps
+## ⚙️ Configuration & Datasets
 
-1. **Text Extraction** — pdfplumber reads PDF resumes
-2. **Preprocessing** — Lowercase, remove stopwords, protect important terms (e.g., "C++", "machine learning")
-3. **Skill Extraction** — Match against a curated database of 50+ technical skills
-4. **Similarity** — TF-IDF vectorization + cosine similarity between resume and job text
-5. **Ranking** — Weighted combination of skill match and text similarity
-
-## Datasets
-
-### Resume PDFs
-120 IT resume PDFs in `data/INFORMATION-TECHNOLOGY/`. Source: Kaggle Resume Dataset.
-
-### Job Descriptions
-40 curated IT job descriptions generated by `scripts/generate_job_descriptions.py`, covering:
-- Software Development (Senior, Junior, Full Stack)
-- Data Engineering & Data Science
-- Machine Learning & Deep Learning
-- DevOps & Cloud Architecture
-- Cybersecurity, QA, Mobile, and more
-
-#### Alternative Real-World Datasets
-You can replace the job descriptions CSV with data from:
-- [LinkedIn Job Postings (2024)](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings) — 124K+ real postings
-- [Indeed Job Posting Dataset](https://www.kaggle.com/datasets/promptcloud/indeed-job-posting-dataset) — Real scraped listings
-- [Fake Job Posting Prediction](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction) — 18K descriptions
-
-Ensure the CSV has columns: `job title`, `job description` (lowercase).
-
-## Configuration
-
-Edit the constants in `main.py` to customize:
-
+### Weights and Tuning
+You can tweak the scoring weights directly in `main.py` or through the Web UI. Example configuration:
 ```python
-RESUME_FOLDER = "data/INFORMATION-TECHNOLOGY"
-JOB_DESC_CSV  = "data/job_descriptions.csv"
-RESUME_LIMIT  = 5
-JOB_TITLE_PATTERN = r"data|engineer|developer|machine learning|software"
+# Default configuration
+SKILL_WEIGHT = 0.70  # Prioritizes exact hard-skill matches
+SIM_WEIGHT = 0.30    # Measures overall experience/context similarity
 ```
 
-## Tech Stack
+### Datasets
+The primary data relies on two sources in the `data/` folder:
+1. **Resumes**: PDF resumes placed inside `data/INFORMATION-TECHNOLOGY/`. (Included: 120 IT Resumes).
+2. **Job Postings**: Structured in `data/job_descriptions.csv` containing at least `job title` and `job description`.
 
-- **Python 3.10+**
-- **scikit-learn** — TF-IDF vectorization & cosine similarity
-- **pdfplumber** — PDF text extraction
-- **pandas** — Data manipulation
-- **matplotlib** — Visualization
-- **Streamlit** — Web interface
+> **Tip**: You can easily swap these out for datasets from Kaggle (e.g., *LinkedIn Job Postings* or *Indeed Scraped Data*).
 
-## License
+---
 
-This project is for educational purposes.
+## 💻 Technology Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white"/>
+</p>
+
+* **Core**: Python 3.10+
+* **ML & NLP**: `scikit-learn`, `nltk`
+* **Data Processing**: `pandas`, `numpy`, `pdfplumber`
+* **Visualization**: `matplotlib`, `seaborn`, `streamlit`
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome! Whether it's adding new skill dictionaries, tweaking the NLP pipeline, or improving the frontend:
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is for educational purposes. Distributed under the MIT License.
+
+---
+<div align="center">
+  <i>Developed with ❤️ for smarter recruitment.</i>
+</div>
