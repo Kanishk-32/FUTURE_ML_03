@@ -1,0 +1,711 @@
+job_id,job title,company,category,job description
+1001,Senior Software Engineer,TechNova Solutions,INFORMATION-TECHNOLOGY,"We are looking for a Senior Software Engineer to design and build scalable backend services. You will architect microservices, mentor junior engineers, and drive best practices across the team.
+
+Responsibilities:
+• Design, develop, and maintain high-quality software using Python and Java
+• Build RESTful APIs and microservices with Flask, FastAPI, or Spring Boot
+• Write clean, well-tested code with comprehensive unit and integration tests
+• Participate in code reviews and provide constructive feedback
+• Collaborate with product managers and designers to define features
+• Optimize application performance and troubleshoot production issues
+
+Requirements:
+• 5+ years of professional software development experience
+• Proficiency in Python and/or Java
+• Experience with SQL databases (PostgreSQL, MySQL) and NoSQL (MongoDB)
+• Familiarity with Docker, Kubernetes, and CI/CD pipelines
+• Strong understanding of data structures, algorithms, and design patterns
+• Experience with cloud platforms (AWS, Azure, or GCP)
+• Excellent communication and teamwork skills
+
+Nice to have: Experience with TypeScript, React.js, or Node.js"
+1002,Junior Software Developer,CodeCraft Inc.,INFORMATION-TECHNOLOGY,"CodeCraft Inc. is hiring a Junior Software Developer to join our agile team. This is a great opportunity for recent graduates looking to launch their career.
+
+Responsibilities:
+• Write and maintain code in Python and JavaScript
+• Assist in building and testing web applications using React.js and Node.js
+• Fix bugs and improve existing features under senior guidance
+• Participate in daily stand-ups and sprint planning
+• Write documentation for new features and APIs
+
+Requirements:
+• Bachelor's degree in Computer Science or related field
+• Basic understanding of Python, JavaScript, HTML, and CSS
+• Familiarity with Git version control
+• Ability to work in a team and learn quickly
+• Understanding of basic data structures and algorithms
+
+Nice to have: Exposure to SQL, Django or Flask, Linux"
+1003,Full Stack Developer,DigitalWave Technologies,INFORMATION-TECHNOLOGY,"DigitalWave Technologies is seeking a Full Stack Developer to build and maintain modern web applications from front-end to back-end.
+
+Responsibilities:
+• Develop responsive, performant web interfaces using React.js and TypeScript
+• Build scalable backends using Node.js, Express, or Django
+• Design and optimize SQL and NoSQL database schemas
+• Implement authentication, authorization, and security best practices
+• Deploy and monitor applications using Docker and cloud platforms
+• Collaborate with UX designers to implement pixel-perfect interfaces
+
+Requirements:
+• 3+ years of full stack development experience
+• Strong proficiency in JavaScript, TypeScript, HTML, CSS
+• Experience with React.js or Angular for front-end development
+• Backend experience with Node.js, Python (Django/Flask), or Java (Spring)
+• Experience with PostgreSQL, MySQL, or MongoDB
+• Familiarity with Git, Docker, and CI/CD workflows
+• Knowledge of AWS or Azure cloud services"
+2001,Data Engineer,DataStream Analytics,INFORMATION-TECHNOLOGY,"DataStream Analytics is looking for a Data Engineer to build robust data pipelines and infrastructure that power our analytics platform.
+
+Responsibilities:
+• Design, build, and maintain scalable ETL/ELT data pipelines
+• Work with large-scale data processing using Python and SQL
+• Implement data warehousing solutions on cloud platforms (AWS, GCP)
+• Ensure data quality, integrity, and availability across systems
+• Optimize query performance and database schemas
+• Collaborate with data scientists and analysts to understand data needs
+
+Requirements:
+• 3+ years of data engineering experience
+• Strong SQL skills (PostgreSQL, MySQL, or similar)
+• Proficiency in Python with pandas, NumPy, and data processing libraries
+• Experience with cloud data services (AWS Redshift, GCP BigQuery, Azure Synapse)
+• Knowledge of Apache Spark, Kafka, or Airflow
+• Familiarity with Docker and Kubernetes
+• Understanding of data modeling and data warehousing concepts
+
+Nice to have: Experience with Terraform, CI/CD, dbt"
+2002,Senior Data Engineer,CloudScale Data,INFORMATION-TECHNOLOGY,"Join CloudScale Data as a Senior Data Engineer to architect next-generation data platforms serving millions of records daily.
+
+Responsibilities:
+• Architect and implement enterprise-scale data lake and warehouse solutions
+• Build real-time streaming pipelines using Kafka and Spark Streaming
+• Lead migration of on-premise data systems to cloud-native architectures
+• Mentor junior engineers and establish data engineering best practices
+• Implement data governance, lineage tracking, and quality monitoring
+
+Requirements:
+• 6+ years in data engineering roles
+• Expert-level Python and SQL
+• Deep experience with AWS (S3, Glue, Redshift, EMR) or GCP (BigQuery, Dataflow)
+• Production experience with Apache Spark, Airflow, and Kafka
+• Strong understanding of data modeling, star schema, and dimensional modeling
+• Experience with Docker, Kubernetes, and Terraform
+• Leadership and mentoring experience"
+3001,Data Scientist,InsightAI Labs,INFORMATION-TECHNOLOGY,"InsightAI Labs is hiring a Data Scientist to uncover business insights through statistical analysis, machine learning, and data visualization.
+
+Responsibilities:
+• Analyze complex datasets to identify trends, patterns, and actionable insights
+• Build predictive models using machine learning and statistical techniques
+• Create compelling data visualizations using Matplotlib, Seaborn, and Tableau
+• Design and run A/B tests and experiments
+• Communicate findings to stakeholders through reports and presentations
+• Collaborate with engineering teams to deploy models to production
+
+Requirements:
+• Master's or PhD in Statistics, Mathematics, Computer Science, or related field
+• Strong proficiency in Python (pandas, NumPy, scikit-learn, SciPy)
+• Experience with machine learning algorithms: regression, classification, clustering
+• Solid foundation in statistics and probability
+• Experience with SQL and data analysis tools
+• Data visualization skills using Matplotlib, Tableau, or PowerBI
+• Excellent analytical and problem-solving skills
+
+Nice to have: Experience with deep learning (TensorFlow, PyTorch), NLP, R"
+3002,Senior Data Analyst,MetricsPro Consulting,INFORMATION-TECHNOLOGY,"MetricsPro Consulting needs a Senior Data Analyst to drive data-driven decision making across our client portfolio.
+
+Responsibilities:
+• Perform deep-dive analyses on business data to drive strategic decisions
+• Build interactive dashboards and reports using Tableau and PowerBI
+• Write complex SQL queries to extract and transform data
+• Develop automated reporting pipelines using Python
+• Present findings and recommendations to C-level executives
+• Mentor junior analysts on best practices
+
+Requirements:
+• 5+ years of data analysis experience
+• Advanced SQL skills
+• Proficiency in Python (pandas, NumPy) or R for data analysis
+• Expert-level Tableau or PowerBI dashboard development
+• Strong knowledge of Excel with pivot tables, VBA, and advanced formulas
+• Experience with statistical analysis and hypothesis testing
+• Excellent communication and presentation skills"
+4001,Machine Learning Engineer,NeuralForge AI,INFORMATION-TECHNOLOGY,"NeuralForge AI is looking for a Machine Learning Engineer to build and deploy ML models that power intelligent products.
+
+Responsibilities:
+• Design, train, and evaluate machine learning models for production use
+• Build end-to-end ML pipelines from data preprocessing to model deployment
+• Implement deep learning architectures using TensorFlow and PyTorch
+• Optimize model performance, latency, and resource utilization
+• Deploy models using Docker, Kubernetes, and cloud ML services
+• Collaborate with data engineers to ensure quality training data
+
+Requirements:
+• 3+ years of machine learning engineering experience
+• Strong Python programming with scikit-learn, TensorFlow, or PyTorch
+• Solid understanding of ML algorithms: deep learning, NLP, computer vision
+• Experience with model serving and MLOps (MLflow, Kubeflow, SageMaker)
+• Proficiency in pandas, NumPy, and data preprocessing
+• Knowledge of Docker, Kubernetes, and CI/CD for ML
+• Experience with AWS, GCP, or Azure ML services
+
+Nice to have: Published research, Kaggle competition experience, reinforcement learning"
+4002,NLP Engineer,LinguaTech Solutions,INFORMATION-TECHNOLOGY,"LinguaTech Solutions is hiring an NLP Engineer to build state-of-the-art natural language processing systems.
+
+Responsibilities:
+• Develop and fine-tune NLP models for text classification, NER, and summarization
+• Build text preprocessing and feature engineering pipelines
+• Implement transformer-based architectures using PyTorch or TensorFlow
+• Evaluate model performance and iterate on improvements
+• Deploy NLP services as scalable REST APIs
+
+Requirements:
+• 3+ years of NLP experience
+• Strong Python programming (pandas, NumPy, scikit-learn)
+• Deep expertise in NLP libraries and frameworks
+• Experience with deep learning for NLP (transformers, BERT, GPT)
+• Knowledge of text preprocessing, tokenization, and embeddings
+• Familiarity with spaCy, NLTK, or Hugging Face Transformers
+• Experience with SQL and data management
+• Understanding of machine learning fundamentals"
+4003,AI Research Scientist,DeepMind Innovations,INFORMATION-TECHNOLOGY,"DeepMind Innovations seeks an AI Research Scientist to push the boundaries of artificial intelligence and machine learning.
+
+Responsibilities:
+• Conduct original research in machine learning and deep learning
+• Develop novel architectures for computer vision and NLP tasks
+• Publish findings in top-tier conferences (NeurIPS, ICML, CVPR)
+• Prototype research ideas and validate through experiments
+• Collaborate with engineering teams to transfer research to products
+
+Requirements:
+• PhD in Computer Science, Machine Learning, or related field
+• Strong publication record in deep learning, NLP, or computer vision
+• Expert-level Python and PyTorch or TensorFlow
+• Deep understanding of reinforcement learning, generative models, and optimization
+• Experience with large-scale distributed training
+• Proficiency in NumPy, SciPy, and scientific computing
+• Strong mathematical foundations in linear algebra, calculus, and probability"
+5001,DevOps Engineer,InfraCloud Systems,INFORMATION-TECHNOLOGY,"InfraCloud Systems is seeking a DevOps Engineer to build and maintain CI/CD pipelines and cloud infrastructure.
+
+Responsibilities:
+• Design and implement CI/CD pipelines for automated testing and deployment
+• Manage cloud infrastructure on AWS using Terraform and CloudFormation
+• Containerize applications using Docker and orchestrate with Kubernetes
+• Implement monitoring, logging, and alerting systems
+• Automate operational tasks using Python and Bash scripts
+• Ensure system security, reliability, and high availability
+
+Requirements:
+• 3+ years of DevOps or SRE experience
+• Strong experience with AWS services (EC2, S3, RDS, Lambda, EKS)
+• Proficiency in Docker and Kubernetes
+• Infrastructure as Code with Terraform or CloudFormation
+• Scripting skills in Python and Bash
+• Experience with CI/CD tools (Jenkins, GitLab CI, GitHub Actions)
+• Knowledge of Linux system administration
+• Familiarity with monitoring tools (Prometheus, Grafana, CloudWatch)"
+5002,Cloud Solutions Architect,SkyBridge Technologies,INFORMATION-TECHNOLOGY,"SkyBridge Technologies is hiring a Cloud Solutions Architect to design enterprise-grade cloud architectures.
+
+Responsibilities:
+• Design and architect scalable, secure cloud solutions on AWS and Azure
+• Lead cloud migration projects from on-premise to cloud-native
+• Define cloud governance, security policies, and cost optimization strategies
+• Evaluate and recommend cloud services for business requirements
+• Create technical documentation and architecture diagrams
+
+Requirements:
+• 7+ years of IT experience with 4+ years in cloud architecture
+• AWS Solutions Architect Professional or Azure Solutions Architect certification
+• Deep knowledge of AWS, Azure, or GCP services
+• Experience with Docker, Kubernetes, and serverless architectures
+• Strong understanding of networking, security, and compliance
+• Experience with Terraform and Infrastructure as Code
+• Excellent communication and stakeholder management skills"
+6001,Cybersecurity Analyst,SecureNet Corp,INFORMATION-TECHNOLOGY,"SecureNet Corp is hiring a Cybersecurity Analyst to protect our organization's digital assets and infrastructure.
+
+Responsibilities:
+• Monitor security systems and analyze threat intelligence
+• Conduct vulnerability assessments and penetration testing
+• Investigate security incidents and perform forensic analysis
+• Implement and manage firewall, IDS/IPS, and SIEM solutions
+• Develop security policies and incident response procedures
+• Conduct security awareness training for employees
+
+Requirements:
+• 3+ years of cybersecurity experience
+• Knowledge of network security, firewalls, and encryption
+• Experience with SIEM tools and log analysis
+• Scripting skills in Python and Bash for automation
+• Understanding of OWASP Top 10 and common vulnerabilities
+• Familiarity with Linux system administration
+• Relevant certifications (CEH, CISSP, CompTIA Security+) preferred"
+7001,Android Developer,AppForge Studios,INFORMATION-TECHNOLOGY,"AppForge Studios is looking for an Android Developer to build world-class mobile applications.
+
+Responsibilities:
+• Design and develop Android applications using Kotlin and Java
+• Implement modern UI patterns with Jetpack Compose
+• Integrate RESTful APIs and third-party SDKs
+• Write unit tests and ensure app quality and performance
+• Publish and maintain apps on the Google Play Store
+• Collaborate with iOS team to ensure consistent cross-platform experience
+
+Requirements:
+• 3+ years of Android development experience
+• Proficiency in Kotlin and Java
+• Experience with Android SDK, Jetpack libraries, and Material Design
+• Understanding of MVVM/MVP architecture patterns
+• Experience with Git version control
+• Knowledge of SQL databases and data persistence
+• Familiarity with Firebase and cloud services"
+7002,iOS Developer,AppForge Studios,INFORMATION-TECHNOLOGY,"We are hiring an iOS Developer to create beautiful, performant mobile applications for the Apple ecosystem.
+
+Responsibilities:
+• Develop iOS applications using Swift and SwiftUI
+• Implement complex UI designs with smooth animations
+• Integrate RESTful APIs and manage local data persistence
+• Write comprehensive unit and UI tests
+• Optimize app performance, memory usage, and battery consumption
+
+Requirements:
+• 3+ years of iOS development experience
+• Strong proficiency in Swift
+• Experience with SwiftUI and UIKit frameworks
+• Understanding of MVC, MVVM, and clean architecture patterns
+• Experience with Core Data, Realm, or similar persistence frameworks
+• Knowledge of Git, CI/CD, and Agile methodologies
+• App Store submission and release management experience"
+8001,Frontend Developer,PixelPerfect Design,INFORMATION-TECHNOLOGY,"PixelPerfect Design is looking for a Frontend Developer who is passionate about creating beautiful, accessible web experiences.
+
+Responsibilities:
+• Build responsive, performant web interfaces using React.js and TypeScript
+• Implement pixel-perfect designs from Figma mockups
+• Write clean, reusable, and well-tested component code
+• Optimize web performance (Core Web Vitals, lazy loading, code splitting)
+• Ensure cross-browser compatibility and accessibility (WCAG)
+• Collaborate with backend developers on API integration
+
+Requirements:
+• 3+ years of frontend development experience
+• Expert-level JavaScript, TypeScript, HTML, and CSS
+• Strong experience with React.js and state management (Redux, Zustand)
+• Understanding of responsive design and mobile-first development
+• Experience with Git, npm/yarn, and modern build tools
+• Knowledge of web accessibility standards
+• Familiarity with REST APIs and GraphQL"
+8002,Backend Developer,ServerStack Solutions,INFORMATION-TECHNOLOGY,"ServerStack Solutions needs a Backend Developer to build robust, scalable server-side applications and APIs.
+
+Responsibilities:
+• Design and implement RESTful APIs using Python (Django/Flask) or Node.js
+• Build and optimize database schemas with PostgreSQL and MongoDB
+• Implement authentication, caching, and rate limiting
+• Write comprehensive tests and maintain high code coverage
+• Deploy applications using Docker and cloud services
+• Participate in on-call rotation for production support
+
+Requirements:
+• 3+ years of backend development experience
+• Strong Python (Django, Flask, or FastAPI) or Node.js
+• Solid SQL experience with PostgreSQL or MySQL
+• Experience with NoSQL databases (MongoDB, Redis)
+• Knowledge of Docker, CI/CD, and cloud platforms (AWS)
+• Understanding of API security and authentication (OAuth, JWT)
+• Experience with Git and agile development practices"
+9001,QA Automation Engineer,QualityFirst Tech,INFORMATION-TECHNOLOGY,"QualityFirst Tech is hiring a QA Automation Engineer to build and maintain our automated testing infrastructure.
+
+Responsibilities:
+• Design and implement automated test frameworks for web and API testing
+• Write and maintain automated test scripts using Python and Selenium
+• Integrate tests into CI/CD pipelines for continuous testing
+• Perform performance and load testing
+• Report bugs with clear reproduction steps and track resolution
+• Collaborate with development teams to improve code quality
+
+Requirements:
+• 3+ years of QA automation experience
+• Proficiency in Python with testing frameworks (pytest, unittest)
+• Experience with Selenium WebDriver and browser automation
+• Knowledge of API testing tools (Postman, REST Assured)
+• Experience with CI/CD integration (Jenkins, GitHub Actions)
+• Understanding of SQL for database validation
+• Familiarity with Git and agile/scrum methodologies"
+10001,Systems Administrator,NetCore Infrastructure,INFORMATION-TECHNOLOGY,"NetCore Infrastructure seeks a Systems Administrator to manage and maintain enterprise IT infrastructure.
+
+Responsibilities:
+• Manage and maintain Linux and Windows server environments
+• Configure and monitor network infrastructure (switches, routers, firewalls)
+• Implement backup, disaster recovery, and business continuity plans
+• Automate administrative tasks using Bash and Python scripts
+• Manage Active Directory, DNS, DHCP, and email systems
+• Provide tier-3 technical support and troubleshooting
+
+Requirements:
+• 4+ years of systems administration experience
+• Strong Linux administration (RHEL, Ubuntu, CentOS)
+• Experience with Windows Server and Active Directory
+• Knowledge of networking protocols (TCP/IP, DNS, HTTP, SSL)
+• Scripting skills in Bash and Python
+• Experience with virtualization (VMware, Hyper-V)
+• Familiarity with cloud platforms (AWS, Azure)"
+11001,Technical Project Manager,AgileOps Group,INFORMATION-TECHNOLOGY,"AgileOps Group is hiring a Technical Project Manager to lead software development projects from inception to delivery.
+
+Responsibilities:
+• Manage end-to-end software project lifecycle using Agile/Scrum
+• Plan sprints, track progress, and remove blockers for development teams
+• Define project scope, timelines, and resource allocation
+• Communicate project status to stakeholders and leadership
+• Identify and mitigate project risks
+• Drive continuous improvement in team processes
+
+Requirements:
+• 5+ years of technical project management experience
+• PMP or Certified Scrum Master (CSM) certification
+• Understanding of software development lifecycle and technologies
+• Experience with JIRA, Confluence, and project management tools
+• Strong communication, leadership, and organizational skills
+• Familiarity with Python, SQL, or basic programming concepts
+• Experience managing cross-functional teams"
+12001,Database Administrator,DataVault Systems,INFORMATION-TECHNOLOGY,"DataVault Systems needs a Database Administrator to ensure the performance, security, and reliability of our database systems.
+
+Responsibilities:
+• Administer and optimize PostgreSQL, MySQL, and MongoDB databases
+• Implement database backup, recovery, and replication strategies
+• Monitor database performance and tune queries for optimal execution
+• Design and implement database security policies and access controls
+• Plan and execute database migrations and upgrades
+• Automate routine DBA tasks using Python and SQL scripts
+
+Requirements:
+• 4+ years of database administration experience
+• Expert-level SQL skills
+• Strong experience with PostgreSQL and/or MySQL
+• Knowledge of NoSQL databases (MongoDB, Redis)
+• Experience with database replication, clustering, and high availability
+• Scripting skills in Python or Bash
+• Understanding of cloud database services (AWS RDS, Azure SQL)"
+13001,Business Intelligence Developer,InsightDriven Analytics,INFORMATION-TECHNOLOGY,"InsightDriven Analytics is looking for a BI Developer to build data-driven reporting and analytics solutions.
+
+Responsibilities:
+• Design and develop interactive dashboards using Tableau and PowerBI
+• Build ETL pipelines to transform raw data into analytics-ready datasets
+• Write complex SQL queries for data extraction and analysis
+• Create automated reports and KPI tracking systems
+• Collaborate with business stakeholders to understand reporting needs
+• Maintain data models and ensure data accuracy
+
+Requirements:
+• 3+ years of BI development experience
+• Expert-level Tableau and/or PowerBI
+• Strong SQL skills for complex queries and data modeling
+• Experience with Python for data analysis (pandas, NumPy)
+• Knowledge of data warehousing concepts and star schemas
+• Advanced Excel skills with pivot tables and macros
+• Excellent data visualization and storytelling skills"
+14001,Embedded Systems Engineer,IoTech Devices,INFORMATION-TECHNOLOGY,"IoTech Devices is hiring an Embedded Systems Engineer to develop firmware and software for IoT devices.
+
+Responsibilities:
+• Develop embedded firmware in C and C++ for microcontrollers
+• Design and implement communication protocols (MQTT, BLE, Wi-Fi)
+• Interface with sensors, actuators, and peripheral hardware
+• Write Python scripts for testing, automation, and data analysis
+• Debug hardware-software integration issues
+• Collaborate with hardware engineers on PCB design reviews
+
+Requirements:
+• 3+ years of embedded development experience
+• Strong C and C++ programming
+• Experience with ARM Cortex microcontrollers
+• Knowledge of RTOS, Linux embedded, and bare-metal programming
+• Familiarity with Python for testing and tooling
+• Understanding of digital electronics and communication protocols
+• Experience with Git and version control"
+15001,Site Reliability Engineer,ReliableOps Inc.,INFORMATION-TECHNOLOGY,"ReliableOps Inc. is seeking a Site Reliability Engineer to ensure our services maintain 99.99% uptime.
+
+Responsibilities:
+• Design and implement infrastructure for high availability and fault tolerance
+• Build monitoring, alerting, and incident response systems
+• Automate deployments and infrastructure using Terraform and Ansible
+• Conduct capacity planning and performance optimization
+• Participate in on-call rotations and incident post-mortems
+• Develop runbooks and standard operating procedures
+
+Requirements:
+• 4+ years of SRE or DevOps experience
+• Strong Linux administration and troubleshooting skills
+• Proficiency in Python and Bash scripting
+• Experience with Docker, Kubernetes, and container orchestration
+• Knowledge of AWS or GCP cloud infrastructure
+• Experience with monitoring tools (Prometheus, Grafana, PagerDuty)
+• Understanding of SLOs, SLIs, and error budgets"
+15002,Software Architect,ArchitectNow Consulting,INFORMATION-TECHNOLOGY,"ArchitectNow Consulting seeks a Software Architect to design scalable, maintainable software systems for enterprise clients.
+
+Responsibilities:
+• Define system architecture for complex enterprise applications
+• Evaluate and select appropriate technologies, frameworks, and platforms
+• Create architecture decision records and technical design documents
+• Lead proof-of-concept development for new technologies
+• Ensure architectures meet non-functional requirements (performance, security, scalability)
+• Mentor development teams on architectural patterns and best practices
+
+Requirements:
+• 10+ years of software development experience
+• 5+ years in architecture and system design roles
+• Deep expertise in Python, Java, or C#
+• Experience with microservices, event-driven, and serverless architectures
+• Strong knowledge of cloud platforms (AWS, Azure, GCP)
+• Experience with Docker, Kubernetes, and CI/CD
+• Excellent communication and stakeholder management"
+16001,Python Developer,PyTech Solutions,INFORMATION-TECHNOLOGY,"PyTech Solutions is hiring a Python Developer to build automation tools, backend services, and data processing systems.
+
+Responsibilities:
+• Develop backend services and REST APIs using Django and FastAPI
+• Build data processing pipelines with pandas and NumPy
+• Write reusable Python packages with comprehensive documentation
+• Implement automated testing using pytest
+• Optimize application performance and memory usage
+• Deploy services using Docker and AWS
+
+Requirements:
+• 3+ years of professional Python development
+• Experience with Django, Flask, or FastAPI
+• Proficiency in SQL (PostgreSQL or MySQL)
+• Knowledge of pandas, NumPy, and data processing
+• Experience with Docker and Linux
+• Familiarity with Git, CI/CD, and agile workflows
+• Understanding of software design patterns and clean code principles"
+17001,Computer Vision Engineer,VisualAI Corp,INFORMATION-TECHNOLOGY,"VisualAI Corp is looking for a Computer Vision Engineer to develop image and video analysis systems.
+
+Responsibilities:
+• Develop computer vision models for object detection, segmentation, and tracking
+• Train and optimize deep learning models using PyTorch and TensorFlow
+• Build data annotation and augmentation pipelines
+• Deploy vision models on edge devices and cloud platforms
+• Evaluate model accuracy, latency, and runtime performance
+
+Requirements:
+• 3+ years of computer vision experience
+• Strong Python programming with PyTorch or TensorFlow
+• Deep understanding of CNNs, transformers, and detection architectures
+• Experience with OpenCV and image processing libraries
+• Knowledge of deep learning optimization and model compression
+• Proficiency in NumPy, pandas, and matplotlib
+• Experience with AWS or GCP for model training and deployment"
+18001,Blockchain Developer,ChainLogic Labs,INFORMATION-TECHNOLOGY,"ChainLogic Labs is seeking a Blockchain Developer to build decentralized applications and smart contracts.
+
+Responsibilities:
+• Develop and deploy smart contracts on Ethereum and Solana
+• Build Web3 frontend interfaces using React.js and ethers.js
+• Implement security best practices for smart contract development
+• Design tokenomics and decentralized protocol architectures
+• Write comprehensive tests for smart contracts
+
+Requirements:
+• 2+ years of blockchain development experience
+• Proficiency in Solidity and/or Rust
+• Strong JavaScript and TypeScript skills
+• Experience with React.js and Node.js
+• Understanding of DeFi protocols and blockchain security
+• Knowledge of Git and CI/CD pipelines
+• Familiarity with Python for scripting and data analysis"
+19001,Technical Support Engineer,SupportTech Global,INFORMATION-TECHNOLOGY,"SupportTech Global is hiring a Technical Support Engineer to provide expert-level support for our software products.
+
+Responsibilities:
+• Diagnose and resolve complex technical issues for enterprise customers
+• Analyze application logs, database queries, and system configurations
+• Create and maintain knowledge base articles and troubleshooting guides
+• Collaborate with engineering teams to report and track product bugs
+• Automate common support tasks using Python scripts
+
+Requirements:
+• 2+ years of technical support experience
+• Strong troubleshooting and analytical skills
+• Basic programming knowledge in Python or Bash
+• Understanding of SQL databases and query debugging
+• Experience with Linux command line
+• Knowledge of networking fundamentals (TCP/IP, DNS, HTTP)
+• Excellent written and verbal communication skills"
+20001,Data Warehouse Developer,WarehouseLogic Inc,INFORMATION-TECHNOLOGY,"WarehouseLogic Inc is hiring a Data Warehouse Developer to design and build enterprise data warehousing solutions.
+
+Responsibilities:
+• Design and implement dimensional data models (star, snowflake schemas)
+• Build ETL/ELT pipelines using Python, SQL, and cloud-native tools
+• Optimize query performance and storage efficiency in data warehouses
+• Implement data quality checks and monitoring
+• Support analytics teams with data access and reporting needs
+
+Requirements:
+• 4+ years of data warehousing experience
+• Expert-level SQL and data modeling
+• Experience with cloud data warehouses (Redshift, BigQuery, Snowflake)
+• Proficiency in Python for ETL development
+• Knowledge of pandas, NumPy, and data processing
+• Experience with dbt, Airflow, or similar orchestration tools
+• Understanding of data governance and data quality frameworks"
+21001,MLOps Engineer,ModelServe AI,INFORMATION-TECHNOLOGY,"ModelServe AI is looking for an MLOps Engineer to bridge the gap between machine learning research and production deployment.
+
+Responsibilities:
+• Build and maintain ML model training and serving infrastructure
+• Implement CI/CD pipelines for machine learning workflows
+• Deploy and monitor ML models using Kubernetes and cloud services
+• Automate model retraining, evaluation, and A/B testing
+• Manage feature stores and experiment tracking systems
+
+Requirements:
+• 3+ years of MLOps or DevOps experience
+• Strong Python programming with scikit-learn and ML libraries
+• Experience with Docker, Kubernetes, and container orchestration
+• Knowledge of MLflow, Kubeflow, or Weights & Biases
+• Experience with AWS SageMaker, GCP Vertex AI, or Azure ML
+• Proficiency in Terraform and Infrastructure as Code
+• Understanding of machine learning model lifecycle"
+22001,Data Analytics Engineer,AnalyticsBridge,INFORMATION-TECHNOLOGY,"AnalyticsBridge is hiring a Data Analytics Engineer to build the data infrastructure that powers our analytics platform.
+
+Responsibilities:
+• Build and optimize data transformation pipelines using dbt and SQL
+• Design data models that support self-service analytics
+• Create automated data quality testing and monitoring
+• Collaborate with analysts to understand data requirements
+• Implement metrics layers and semantic models
+
+Requirements:
+• 3+ years of analytics engineering or data engineering experience
+• Expert-level SQL and data modeling
+• Experience with Python (pandas, NumPy) for data analysis
+• Knowledge of dbt, Airflow, or similar tools
+• Experience with cloud data warehouses (Snowflake, BigQuery)
+• Understanding of data visualization tools (Tableau, PowerBI)
+• Strong analytical and problem-solving skills"
+23001,Platform Engineer,PlatformX Technologies,INFORMATION-TECHNOLOGY,"PlatformX Technologies is seeking a Platform Engineer to build internal developer platforms and tooling.
+
+Responsibilities:
+• Design and build internal developer platforms and self-service tools
+• Implement service meshes, API gateways, and platform abstractions
+• Create developer documentation and onboarding workflows
+• Build and maintain shared libraries and infrastructure components
+• Drive platform adoption across engineering teams
+
+Requirements:
+• 4+ years of platform or infrastructure engineering experience
+• Strong Python, Go, or Java programming skills
+• Deep experience with Docker and Kubernetes
+• Knowledge of AWS, GCP, or Azure cloud services
+• Experience with Terraform, Helm, and GitOps workflows
+• Understanding of microservices architecture patterns
+• Excellent documentation and communication skills"
+24001,Automation Engineer,AutomatePro Systems,INFORMATION-TECHNOLOGY,"AutomatePro Systems is hiring an Automation Engineer to streamline business processes through intelligent automation.
+
+Responsibilities:
+• Design and implement process automation solutions using Python
+• Build robotic process automation (RPA) workflows
+• Automate data collection, transformation, and reporting tasks
+• Create automated testing and monitoring frameworks
+• Document automation workflows and maintain runbooks
+
+Requirements:
+• 3+ years of automation engineering experience
+• Strong Python programming with scripting and automation libraries
+• Experience with web scraping (BeautifulSoup, Selenium)
+• Knowledge of SQL and database automation
+• Experience with Excel automation and data processing (pandas)
+• Familiarity with Git, CI/CD, and Linux
+• Understanding of RESTful APIs and integration patterns"
+25001,Game Developer,PixelForge Games,INFORMATION-TECHNOLOGY,"PixelForge Games is seeking a Game Developer to create engaging gaming experiences across multiple platforms.
+
+Responsibilities:
+• Develop game mechanics, UI systems, and gameplay features
+• Write efficient, optimized code in C++ and C#
+• Implement physics, AI behaviors, and rendering systems
+• Debug and profile game performance issues
+• Collaborate with artists and designers to bring creative visions to life
+
+Requirements:
+• 3+ years of game development experience
+• Strong C++ and/or C# programming
+• Experience with Unity or Unreal Engine
+• Understanding of 3D mathematics, physics, and rendering
+• Knowledge of data structures and algorithms for game optimization
+• Experience with Git version control
+• Python scripting for tools and automation is a plus"
+26001,API Developer,ConnectAPI Solutions,INFORMATION-TECHNOLOGY,"ConnectAPI Solutions needs an API Developer to design and build robust API platforms serving thousands of developers.
+
+Responsibilities:
+• Design and implement RESTful and GraphQL APIs
+• Build API authentication, rate limiting, and versioning systems
+• Write comprehensive API documentation using OpenAPI/Swagger
+• Implement API monitoring, logging, and analytics
+• Ensure API security and compliance with best practices
+
+Requirements:
+• 3+ years of API development experience
+• Strong Python (Flask, FastAPI, Django REST Framework) or Node.js
+• Experience with PostgreSQL, MongoDB, and Redis
+• Knowledge of API security (OAuth 2.0, JWT, API keys)
+• Experience with Docker and cloud deployment (AWS, GCP)
+• Understanding of REST principles and API design patterns
+• Familiarity with CI/CD and automated testing"
+27001,Big Data Engineer,ScaleData Corp,INFORMATION-TECHNOLOGY,"ScaleData Corp is hiring a Big Data Engineer to process and analyze petabyte-scale datasets.
+
+Responsibilities:
+• Build distributed data processing pipelines using Apache Spark
+• Design data lake architectures on AWS S3 or GCP Cloud Storage
+• Implement real-time streaming solutions with Kafka and Flink
+• Optimize data processing for performance and cost efficiency
+• Develop data quality frameworks and monitoring dashboards
+
+Requirements:
+• 4+ years of big data engineering experience
+• Strong Python and Scala programming
+• Expert-level Apache Spark (PySpark, Spark SQL)
+• Experience with Apache Kafka, Airflow, and Hive
+• Deep knowledge of AWS (EMR, S3, Glue) or GCP (Dataproc, BigQuery)
+• Proficiency in SQL and data modeling
+• Experience with Docker, Kubernetes, and Terraform"
+28001,IT Consultant,TechAdvisors Group,INFORMATION-TECHNOLOGY,"TechAdvisors Group is looking for an IT Consultant to provide strategic technology guidance to enterprise clients.
+
+Responsibilities:
+• Assess client technology infrastructure and recommend improvements
+• Design solutions for cloud migration, security, and digital transformation
+• Create technical proposals, roadmaps, and implementation plans
+• Lead workshops and training sessions for client teams
+• Stay current with industry trends and emerging technologies
+
+Requirements:
+• 5+ years of IT consulting or enterprise technology experience
+• Broad knowledge of cloud platforms (AWS, Azure, GCP)
+• Understanding of Python, SQL, and modern development practices
+• Experience with data analytics and visualization tools
+• Strong presentation and client-facing communication skills
+• Knowledge of cybersecurity, networking, and infrastructure
+• Relevant certifications (AWS, Azure, ITIL) preferred"
+29001,Deep Learning Engineer,CortexAI Research,INFORMATION-TECHNOLOGY,"CortexAI Research is hiring a Deep Learning Engineer to develop cutting-edge neural network models for real-world applications.
+
+Responsibilities:
+• Design, implement, and train deep neural networks using PyTorch
+• Develop models for NLP, computer vision, and multimodal applications
+• Optimize training pipelines for distributed GPU clusters
+• Implement model quantization and optimization for deployment
+• Conduct experiments and report results with rigorous methodology
+
+Requirements:
+• 3+ years of deep learning experience
+• Expert-level Python and PyTorch or TensorFlow
+• Strong understanding of deep learning architectures (CNNs, RNNs, Transformers)
+• Experience with machine learning, NLP, and computer vision
+• Proficiency in NumPy, pandas, matplotlib, and scipy
+• Knowledge of scikit-learn and classical ML algorithms
+• Experience with Docker, Kubernetes, and cloud GPU instances (AWS, GCP)"
+30001,Software Development Engineer in Test,TestDriven Technologies,INFORMATION-TECHNOLOGY,"TestDriven Technologies is seeking an SDET to ensure software quality through comprehensive testing strategies.
+
+Responsibilities:
+• Design and implement automated testing frameworks and strategies
+• Write integration, end-to-end, and performance tests
+• Develop custom testing tools and utilities in Python
+• Analyze test results and provide detailed quality reports
+• Collaborate with developers to establish testing best practices
+
+Requirements:
+• 3+ years of SDET or test automation experience
+• Strong Python programming with pytest and unittest
+• Experience with Selenium, Playwright, or Cypress
+• Knowledge of REST API testing and contract testing
+• Familiarity with CI/CD pipelines (Jenkins, GitHub Actions)
+• Understanding of SQL and database testing
+• Experience with Git and agile development methodologies"
