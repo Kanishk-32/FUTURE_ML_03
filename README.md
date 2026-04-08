@@ -153,6 +153,10 @@ The primary data relies on two sources in the `data/` folder:
 
 ---
 
+Images :
+
+<img width="1468" height="822" alt="image" src="https://github.com/user-attachments/assets/63a15992-4e06-46f6-8a2c-20ed7ce4d30a" />
+
 ## 🤝 Contributing
 
 Contributions are always welcome! Whether it's adding new skill dictionaries, tweaking the NLP pipeline, or improving the frontend:
