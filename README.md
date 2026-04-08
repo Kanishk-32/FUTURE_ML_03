@@ -31,6 +31,8 @@ By combining **TF-IDF cosine similarity** with an intelligent **keyword-based sk
 - **📈 Rich Visualizations**: View candidate radar charts, bar plots, and score distributions dynamically.
 - **⚡ Batch Processing**: Evaluate dozens of resumes in seconds via the Command Line Interface (CLI) or Web UI.
 - **💾 Export Ready**: Download screening results as CSV for ATS (Applicant Tracking System) integration.
+- <img width="1913" height="873" alt="image" src="https://github.com/user-attachments/assets/c23bd355-a6b4-4577-9b6c-9a2b4b823601" />
+
 
 ---
 
