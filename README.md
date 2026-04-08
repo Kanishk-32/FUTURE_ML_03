@@ -157,6 +157,12 @@ Images :
 
 <img width="1468" height="822" alt="image" src="https://github.com/user-attachments/assets/63a15992-4e06-46f6-8a2c-20ed7ce4d30a" />
 
+
+<img width="1453" height="813" alt="Screenshot 2026-04-08 203707" src="https://github.com/user-attachments/assets/5c0b5c1d-967f-4333-a2e4-e24d5215c7a3" />
+
+
+<img width="1905" height="769" alt="image" src="https://github.com/user-attachments/assets/4bde446e-ebe1-486c-a9c3-3f0e0669979a" />
+
 ## 🤝 Contributing
 
 Contributions are always welcome! Whether it's adding new skill dictionaries, tweaking the NLP pipeline, or improving the frontend:
