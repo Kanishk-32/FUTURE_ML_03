@@ -165,7 +165,7 @@ Images :
 
 ## 🤝 Contributing
 
-Contributions are always welcome! Whether it's adding new skill dictionaries, tweaking the NLP pipeline, or improving the frontend:
+Contributions are always welcome! Whether it's adding new skill dictionaries, tweaking the NLP pipeline, improving the frontend:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
