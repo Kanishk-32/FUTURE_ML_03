@@ -8,13 +8,17 @@
 
 *An intelligent, fast, and accurate candidate ranking pipeline built with Machine Learning.*
 
-[**Features**](#-features) • [**Quick Start**](#-quick-start) • [**How It Works**](#-how-it-works) • [**Web App**](#-web-app) • [**Contributing**](#-contributing)
+[**Features**](#-features) • [**Gallery**](#-gallery) • [**Quick Start**](#-quick-start) • [**How It Works**](#%EF%B8%8F-architecture) • [**Contributing**](#-contributing)
+
+<br>
+
+<img width="90%" alt="Hero Dashboard" src="https://github.com/user-attachments/assets/c23bd355-a6b4-4577-9b6c-9a2b4b823601" />
 
 </div>
 
 ---
 
-## 🎯 What is this?
+## 🎯 Overview
 Finding the right candidate in a pile of hundreds of resumes is like finding a needle in a haystack. This **AI-Powered Resume Screening System** automates the tedious triage process. 
 
 By combining **TF-IDF cosine similarity** with an intelligent **keyword-based skill extraction engine**, this system ranks candidates against your exact job description, saving HR professionals and recruiters countless hours.
@@ -31,8 +35,28 @@ By combining **TF-IDF cosine similarity** with an intelligent **keyword-based sk
 - **📈 Rich Visualizations**: View candidate radar charts, bar plots, and score distributions dynamically.
 - **⚡ Batch Processing**: Evaluate dozens of resumes in seconds via the Command Line Interface (CLI) or Web UI.
 - **💾 Export Ready**: Download screening results as CSV for ATS (Applicant Tracking System) integration.
-- <img width="1913" height="873" alt="image" src="https://github.com/user-attachments/assets/c23bd355-a6b4-4577-9b6c-9a2b4b823601" />
 
+---
+
+## 📸 Gallery
+
+A closer look at the AI Resume Screening dashboard and tools in action:
+
+**Detailed Candidate Analysis**
+<br>
+<img width="100%" alt="Candidate Analysis" src="https://github.com/user-attachments/assets/63a15992-4e06-46f6-8a2c-20ed7ce4d30a" />
+
+<br>
+
+**Skill Matching and Charts**
+<br>
+<img width="100%" alt="Skill Matching" src="https://github.com/user-attachments/assets/5c0b5c1d-967f-4333-a2e4-e24d5215c7a3" />
+
+<br>
+
+**Model Evaluation & Insights**
+<br>
+<img width="100%" alt="Metrics and Evaluation" src="https://github.com/user-attachments/assets/4bde446e-ebe1-486c-a9c3-3f0e0669979a" />
 
 ---
 
@@ -152,16 +176,6 @@ The primary data relies on two sources in the `data/` folder:
 * **Visualization**: `matplotlib`, `seaborn`, `streamlit`
 
 ---
-
-Images :
-
-<img width="1468" height="822" alt="image" src="https://github.com/user-attachments/assets/63a15992-4e06-46f6-8a2c-20ed7ce4d30a" />
-
-
-<img width="1453" height="813" alt="Screenshot 2026-04-08 203707" src="https://github.com/user-attachments/assets/5c0b5c1d-967f-4333-a2e4-e24d5215c7a3" />
-
-
-<img width="1905" height="769" alt="image" src="https://github.com/user-attachments/assets/4bde446e-ebe1-486c-a9c3-3f0e0669979a" />
 
 ## 🤝 Contributing
 
